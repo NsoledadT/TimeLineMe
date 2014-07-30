@@ -1,0 +1,747 @@
+body{
+background:url("../img/fondo.jpg") repeat-x #0668ed;
+font-family:verdana,arial,helvetica,sans serif;
+color:white;
+margin: 0px;
+height: 100%;
+}
+
+h1,h2,h3,h4,h5{
+font-weight:lighter;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenedor General */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenedor_general{
+height:auto;
+width:1021px;
+margin:0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Encabezado */
+/*-------------------------------------------------------------------------------------------------------- */
+#encabezado{
+float:left;
+height:160px;
+width:850px;
+}
+
+#encabezado img{
+border: none;
+margin-top:20px;
+margin-left:20px;
+float:left;
+}
+
+#encabezado form{
+margin-top:20px;
+font-size:12px;
+float:right;
+}
+
+#encabezado form a{
+text-decoration:none;
+color:white;
+}
+
+.usuario{
+background:url("../img/input_usuario.gif") no-repeat;
+border:none;
+height:16px;
+width:210px;
+}
+
+.password{
+background:url("../img/input_contrasenia.gif") no-repeat;
+border:none;
+height:16px;
+width:190px;
+}
+
+#encabezado h1 a{
+font-size:10px;
+}
+
+#sesion{
+background:url("../img/boton_login.png") no-repeat;
+float:right;
+height:31px;
+width:126px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenido{
+background:url("../img/cuadro_dialogo.png") no-repeat;
+float:left;
+height:429px;
+width:871px;
+}
+
+#contenido a{
+background:url("../img/boton_registrarte.png") no-repeat;
+margin-left:550px;
+margin-top:-70px;
+text-decoration:none;
+color:white;
+font-size:25px;
+float:left;
+text-align:center;
+line-height:70px;
+height:77px;
+width:298px;
+}
+
+#contenido a:hover{
+background:url("../img/boton_registrarte_hover.png") no-repeat;
+height:77px;
+width:298px;
+}
+
+.titular{
+padding-left:485px;
+margin-top:50px;
+height:200px;
+width:400px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Información Adicional */
+/*-------------------------------------------------------------------------------------------------------- */
+#franja_azul{
+background:url("../img/franja_azul.jpg") repeat-x #0430ad;
+float:left;
+height:220px;
+width:100%;
+}
+
+#franja_centro{
+height:180px;
+width:850px;
+margin:0 auto;
+}
+
+.parrafo{
+float:left;
+margin-right:17px;
+}
+
+.parrafo p{
+font-size:14px;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Pie */
+/*-------------------------------------------------------------------------------------------------------- */
+#pie{
+background-color:#051b89;
+float:left;
+height:120px;
+width:100%;
+}
+
+#centrar{
+height:100px;
+width:900px;
+text-align:center;
+margin:0 auto;
+}
+
+#centrar a{
+font-size:14px;
+text-decoration:none;
+color:white;
+}
+
+#centrar p{
+margin-top:20px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido registracion empresa */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenido_registracion{
+float:left;
+height:590px;
+width:960px;
+}
+
+.joven{
+background:url("../img/registracion_empresa/joven.png") no-repeat;
+float:left;
+margin-left: 55px;
+}
+
+.contenedor_empresa{
+background:url("../img/registracion_empresa/contenedor_empresa.png") no-repeat;
+width:618px;
+height:596px;
+float:right;
+}
+
+#crearCuenta{
+background:url("../img/registracion_empresa/boton_cuenta.png") no-repeat;
+margin:20px 0 0 265px;
+float:left;
+width:192px;
+height:44px;
+}
+
+ 
+.empresa{
+background:url("../img/registracion_empresa/input_empresa.gif") no-repeat;
+border:none;
+height:25px;
+width:214px;
+float:right;
+}
+
+.mail{
+background:url("../img/registracion_empresa/input_email.gif") no-repeat;
+border:none;
+height: 24px;
+width: 401px;
+float: right; 
+}
+
+.usuario2{
+background:url("../img/registracion_empresa/input_usuario2.gif") no-repeat;
+border:none;
+height: 26px;
+width: 247px;
+float: right; 
+}
+
+.password2{
+background:url("../img/registracion_empresa/input_contrasenia2.gif") no-repeat;
+border:none;
+height: 28px;
+width: 336px;
+float:right; 
+}
+
+.reingresecon{
+background:url("../img/registracion_empresa/input_reingresecon.gif") no-repeat;
+border:none;
+height: 26px;
+width: 233px;
+float:right;
+}
+
+#contenido_registracion h2{
+padding-left:80px;
+margin-top:60px;
+height: 70px;
+width: 276px;
+}
+
+.formu{
+margin-right:80px;
+float:right;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Perfil Empresa */
+/*-------------------------------------------------------------------------------------------------------- */
+#modificar_perfil{
+background:url("../img/empresa/recuadro.png") no-repeat;
+width:587px;
+height:330px;
+float:right;
+text-align:center;
+}
+
+#modificar_perfil a{
+background:url("../img/empresa/modificar.png") no-repeat;
+text-decoration:none;
+color:white;
+margin-right:30px;
+margin-top:-15px;
+line-height:40px;
+text-align:center;
+float:right;
+width:170px;
+height:43px;
+}
+
+#modificar_perfil a:hover {
+background:url("../img/empresa/modificar_hover.png") no-repeat;
+width:170px;
+height:43px;
+}
+
+#modificar_perfil h4,#modificar_perfil h5{
+margin-top:-10px;
+}
+
+#modificar_perfil h3{
+margin-top:10px;
+}
+
+.imagen {
+background:url("../img/empresa/foto.gif") no-repeat;
+width:118px;
+height:120px;
+margin:0 auto 0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido Inicio Agente */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenido_agente img{
+position:absolute;
+margin-left:664px;
+margin-top:-178px;
+z-index:-1;
+}
+
+#contenido_agente{
+height:auto;
+width:930px;
+float:left;
+}
+
+#barra_menu{
+background:url("../img/agente/barra_menu.png") no-repeat;
+position:relative;
+height:95px;
+width:912px;
+}
+
+.perfil{
+background:url("../img/agente/boton_a.gif") no-repeat;
+font-family:arial;
+color:white;
+text-decoration:none;
+margin-top:17px;
+font-size:18px;
+float:right;
+line-height:60px;
+text-align:center;
+width:118px;
+height:62px;
+}
+
+.inicio{
+background:url("../img/agente/boton_a_hover.gif") no-repeat;
+font-family:arial;
+color:white;
+text-decoration:none;
+margin-top:17px;
+font-size:18px;
+float:right;
+line-height:60px;
+text-align:center;
+width:118px;
+height:62px;
+}
+
+.inicio2{
+background:url("../img/agente/boton_a") no-repeat;
+font-family:arial;
+color:white;
+text-decoration:none;
+margin-top:17px;
+font-size:18px;
+float:right;
+line-height:60px;
+text-align:center;
+width:118px;
+height:62px;
+}
+
+.inicio2:hover{
+background:url("../img/agente/boton_a_hover.gif") no-repeat;
+width:118px;
+height:62px;
+}
+
+.perfil2{
+background:url("../img/agente/boton_a_hover.gif") no-repeat;
+font-family:arial;
+color:white;
+text-decoration:none;
+margin-top:17px;
+font-size:18px;
+float:right;
+line-height:60px;
+text-align:center;
+width:118px;
+height:62px;
+}
+
+.perfil:hover{
+background:url("../img/agente/boton_a_hover.gif") no-repeat;
+width:118px;
+height:62px;
+}
+
+.cerrar_sesion{
+background:url("../img/agente/boton_a.gif") no-repeat;
+font-family:arial;
+color:white;
+text-decoration:none;
+margin-top:17px;
+font-size:18px;
+float:right;
+line-height:60px;
+text-align:center;
+width:118px;
+height:62px;
+}
+
+.cerrar_sesion:hover{
+background:url("../img/agente/boton_a_hover.gif") no-repeat;
+width:118px;
+height:62px;
+}
+
+#botones{
+margin-right:60px;
+float:right;
+width:500px;
+height:62px;
+}
+
+#lateral{
+float:left;
+width:286px;
+height:589px;
+}
+
+.recuadro{
+background:url("../img/agente/recuadro.png") no-repeat;
+padding-top:2px;
+padding-left:35px;
+width:251px;
+height:260px;
+}
+
+.recuadro2{
+padding-top:2px;
+padding-left:35px;
+width:251px;
+height:260px;
+}
+
+
+.recuadro2 h3 a{
+float:right;
+}
+
+.espacio{
+height:20px;
+}
+
+.subtituloTexto{
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:12px;
+margin-top:-10px;
+}
+
+.tituloTexto{
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:12px;
+}
+
+.inputTitulo{
+	margin-top:-10px;
+}
+	
+.ocultos{
+display:none;
+}
+
+.textarea{
+margin-top:-8px;	
+}
+
+#subir{
+background:url("../img/agente/boton_subir.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+float:right;
+line-height:55px;
+text-align:center;
+margin-right:15px;
+margin-top:-10px;
+width:163px;
+height:47px;
+}
+
+.todos{
+background:url("../img/agente/boton_subir2.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+float:left;
+text-align:center;
+margin-top:40px;
+margin-left:10px;
+line-height:35px;
+padding-top:25px;
+color:white;
+width:192px;
+height:32px;
+}
+
+.todos:hover {
+background:url("../img/agente/boton_subir2_hover.png") no-repeat;
+width:192px;
+height:57px;
+}
+
+.recuadro p a{
+background:url("../img/agente/boton_subir.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+float:right;
+line-height:55px;
+text-align:center;
+margin-right:15px;
+margin-top:-10px;
+width:192px;
+height:57px;
+}
+
+.recuadro p a:hover{
+background:url("../img/agente/boton_subir_hover.png") no-repeat;
+width:192px;
+height:57px;
+}
+
+.recuadro h4 a{
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:13px;
+}
+
+.recuadro h3 a{
+background:url("../img/agente/boton_seguir.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:15px;
+margin-right:25px;
+float:right;
+line-height:35px;
+text-align:center;
+width:107px;
+height:37px;
+}
+
+.recuadro h3 a:hover{
+background:url("../img/agente/boton_seguir_hover.png") no-repeat;
+width:107px;
+height:37px;
+}
+
+.recuadro a{
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+line-height:2px;
+color:white;
+}
+
+#linea_general{
+float:right;
+height:auto;
+width:589;
+}
+
+#encabezado_cuadro{
+background:url("../img/agente/recuadro_cabezal.png") no-repeat;
+height:135px;
+width:589px;
+}
+
+#encabezado_cuadro h2{
+margin-left:140px;
+}
+
+#pie_cuadro{
+background:url("../img/agente/recuadro_pie.png") no-repeat;
+height:135px;
+width:589px;
+}
+
+.uno{
+background-color:#051b89;
+height:100px;
+width:589px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-left-style:solid;
+border-left-width:1px;
+border-right-style:solid;
+border-right-width:1px;
+}
+
+.uno h3 a{
+background:url("../img/agente/boton_seguir.png") no-repeat;
+text-decoration:none;
+font:verdana,arial,helvetica,sans serif;
+color:white;
+font-size:15px;
+margin-right:25px;
+float:right;
+line-height:35px;
+text-align:center;
+width:107px;
+height:37px;
+}
+
+.fecha{
+background-color:#061541;
+float:left;
+height:100px;
+width:129px;
+border-right-style:solid;
+border-right-width:1px;
+}
+
+.fecha h4{
+margin-top:39px;
+text-align:center;
+}
+
+.noticia{
+background-color:#051b89;
+float:left;
+height:100px;
+width:459px;
+}
+
+.noticia h3,.noticia h4{
+margin-left:20px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido Crear Agente */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenido_crear_agente{
+height:500px;
+width:959px;
+float:left;
+}
+
+.mujer{
+position:absolute;
+margin-left:-550px;
+margin-top:170px;
+z-index:3;
+}
+	  
+.contenedor_agente{
+background:url("../img/registracion_agente/contenedor_agente.png") no-repeat;
+width:587px;
+height:330px;
+float:right;
+margin-top:40px;
+margin-bottom:30px;
+}	
+
+.contenedor_agente h2,.contenedor_agente h3{
+margin-left:50px;
+}
+
+.formu_agente{
+margin-left:50px;
+float:left;
+width:460px;
+height:150px;
+}
+  
+.formu_agente p a{
+background:url("../img/registracion_agente/boton_crear_agente.png") no-repeat;
+margin-left:280px;
+margin-top:30px;
+text-decoration:none;
+color:white;
+font-size:18px;
+float:left;
+line-height:30px;
+text-align:center;
+width:164px;
+height:37px;
+}
+
+.formu_agente p a:hover{
+background:url("../img/registracion_agente/agente_boton_hover.png") no-repeat;
+width:164px;
+height:37px;
+}
+ 
+.agente{
+background:url("../img/registracion_agente/input_nombre_agente.gif") no-repeat;
+border:none;
+height:24px;
+width:359px;
+float:right;
+}
+
+.contra3{
+background:url("../img/registracion_agente/input_contra3.gif") no-repeat;
+border:none;
+height:24px;
+width:335px;
+float:right;
+}
+
+.reingresecon2{
+background:url("../img/registracion_agente/input_reingresecon2.gif") no-repeat;
+border:none;
+height:24px;
+width:258px;
+float:right;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Perfil Publico Empresa */
+/*-------------------------------------------------------------------------------------------------------- */
+.recuadro_registrate{
+background:url("../img/empresa/recuadro_registrate.png") no-repeat;
+padding-top:5px;
+padding-left:20px;
+height:466px;
+width:265px;
+}
+
+.recuadro_registrate a{
+background:url("../img/empresa/boton_registrate.png") no-repeat;
+text-decoration:none;
+margin-right:10px;
+margin-top:270px;
+text-align:center;
+line-height:40px;
+color:white;
+float:right;
+height:43px;
+width:169px;
+}
+
+.recuadro_registrate a:hover{
+background:url("../img/empresa/boton_registrate_hover.png") no-repeat;
+height:43px;
+width:169px;
+}
+
+.recuadro_registrate h2{
+padding-top:5px;
+}
+
+ 
